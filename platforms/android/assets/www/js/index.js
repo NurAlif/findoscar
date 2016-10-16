@@ -49,6 +49,12 @@ var app = {
 };
 
 app.initialize();
+getgame();
+
+function getgame(){
+    window.location.href = "game.html";
+}
+
 document.addEventListener("backbutton", onBackKeyDown, false);
 
 function onBackKeyDown(e) {
